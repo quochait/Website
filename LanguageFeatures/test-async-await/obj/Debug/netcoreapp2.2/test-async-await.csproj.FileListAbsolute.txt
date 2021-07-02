@@ -1,0 +1,10 @@
+F:\asp.net\LanguageFeatures\test-async-await\bin\Debug\netcoreapp2.2\test-async-await.deps.json
+F:\asp.net\LanguageFeatures\test-async-await\bin\Debug\netcoreapp2.2\test-async-await.runtimeconfig.json
+F:\asp.net\LanguageFeatures\test-async-await\bin\Debug\netcoreapp2.2\test-async-await.runtimeconfig.dev.json
+F:\asp.net\LanguageFeatures\test-async-await\bin\Debug\netcoreapp2.2\test-async-await.dll
+F:\asp.net\LanguageFeatures\test-async-await\bin\Debug\netcoreapp2.2\test-async-await.pdb
+F:\asp.net\LanguageFeatures\test-async-await\obj\Debug\netcoreapp2.2\test-async-await.csproj.CoreCompileInputs.cache
+F:\asp.net\LanguageFeatures\test-async-await\obj\Debug\netcoreapp2.2\test-async-await.AssemblyInfoInputs.cache
+F:\asp.net\LanguageFeatures\test-async-await\obj\Debug\netcoreapp2.2\test-async-await.AssemblyInfo.cs
+F:\asp.net\LanguageFeatures\test-async-await\obj\Debug\netcoreapp2.2\test-async-await.dll
+F:\asp.net\LanguageFeatures\test-async-await\obj\Debug\netcoreapp2.2\test-async-await.pdb

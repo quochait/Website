@@ -1,0 +1,11 @@
+F:\asp.net\Martial\test\bin\Debug\netcoreapp2.2\test.deps.json
+F:\asp.net\Martial\test\bin\Debug\netcoreapp2.2\test.runtimeconfig.json
+F:\asp.net\Martial\test\bin\Debug\netcoreapp2.2\test.runtimeconfig.dev.json
+F:\asp.net\Martial\test\bin\Debug\netcoreapp2.2\test.dll
+F:\asp.net\Martial\test\bin\Debug\netcoreapp2.2\test.pdb
+F:\asp.net\Martial\test\obj\Debug\netcoreapp2.2\test.csproj.CoreCompileInputs.cache
+F:\asp.net\Martial\test\obj\Debug\netcoreapp2.2\test.AssemblyInfoInputs.cache
+F:\asp.net\Martial\test\obj\Debug\netcoreapp2.2\test.AssemblyInfo.cs
+F:\asp.net\Martial\test\obj\Debug\netcoreapp2.2\test.dll
+F:\asp.net\Martial\test\obj\Debug\netcoreapp2.2\test.pdb
+F:\asp.net\Martial\test\obj\Debug\netcoreapp2.2\test.csprojAssemblyReference.cache

@@ -1,0 +1,91 @@
+﻿
+
+@model Martial.Models.Albums
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<style>
+    .same-height {
+        height: 300px;
+        object-fit: cover;
+    }
+</style>
+
+
+
+@* Information about album *@
+<div class="container border border-primary p-3 rounded text-center" id="information">
+    <div class="row form-group ">
+        <div class="col-4">
+            <label asp-for="@Model.Name" class="font-weight-bold"></label>
+        </div>
+        <div class="col-8">
+            <input type="text" asp-for="@Model.Name" class="form-control font-weight-bold" disabled />
+        </div>
+    </div>
+    <div class="row form-group">
+        <div class="col-4 font-weight-bold">
+            <label asp-for="@Model.Descriptions"></label>
+        </div>
+        <div class="col-8">
+            <textarea class="form-control" placeholder="Desciptions about Martial..." asp-for="@Model.Descriptions" disabled></textarea>
+        </div>
+    </div>
+</div>
+
+@* Button route *@
+<div id="button-route" class="text-center mt-3">
+    <a class="btn btn-success" asp-area="Customer" asp-controller="Home" asp-action="Index">Back to list</a>
+</div>
+
+@* show images *@
+<div id="showGalleryImages" class="row">
+
+    @foreach (var picture in Model.Pictures)
+    {
+        <div class="col-lg-3 col-md-4 col-6 text-center" id="divParent_@picture.Id">
+
+            <img alt="Alternate Text" src="@picture.Path" class="img-fluid same-height rounded w-100 my-1 mt-3" id="image_@picture.Id" onclick="showModal(@picture.Path);" />
+
+        </div>
+    }
+
+</div>
+
+<div class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img  id="showModal"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+
+            //var images = $('#showGalleryImages').find('img').map(function () {
+            //    return $(this).attr('src');
+            //}).get();
+            //console.log(images);
+
+            function showModal(path){
+                console.log(path);
+                $('#showModal').attr('src', path);
+                $('.modal').modal('show');
+            }
+        });
+
+    </script>
+}

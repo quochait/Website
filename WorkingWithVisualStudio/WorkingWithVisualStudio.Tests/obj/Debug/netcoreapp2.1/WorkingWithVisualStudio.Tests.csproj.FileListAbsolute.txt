@@ -1,0 +1,17 @@
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.1\WorkingWithVisualStudio.Tests.deps.json
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.1\WorkingWithVisualStudio.Tests.runtimeconfig.json
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.1\WorkingWithVisualStudio.Tests.runtimeconfig.dev.json
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.1\WorkingWithVisualStudio.Tests.dll
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.1\WorkingWithVisualStudio.Tests.pdb
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.1\WorkingWithVisualStudio.dll
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio.Tests\bin\Debug\netcoreapp2.1\WorkingWithVisualStudio.pdb
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio.Tests\obj\Debug\netcoreapp2.1\WorkingWithVisualStudio.Tests.csprojAssemblyReference.cache
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio.Tests\obj\Debug\netcoreapp2.1\WorkingWithVisualStudio.Tests.csproj.CoreCompileInputs.cache
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio.Tests\obj\Debug\netcoreapp2.1\WorkingWithVisualStudio.Tests.AssemblyInfoInputs.cache
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio.Tests\obj\Debug\netcoreapp2.1\WorkingWithVisualStudio.Tests.AssemblyInfo.cs
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio.Tests\obj\Debug\netcoreapp2.1\WorkingWithVisualStudio.Tests.csproj.CopyComplete
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio.Tests\obj\Debug\netcoreapp2.1\WorkingWithVisualStudio.Tests.dll
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio.Tests\obj\Debug\netcoreapp2.1\WorkingWithVisualStudio.Tests.pdb

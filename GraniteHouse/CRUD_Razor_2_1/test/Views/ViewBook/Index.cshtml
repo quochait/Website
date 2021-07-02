@@ -1,0 +1,24 @@
+﻿
+@model IEnumerable<test.Models.Book>
+
+@{
+  ViewData["Title"] = "Index";
+}
+
+
+@foreach (var item in Model)
+{
+  <form action="/" method="post">
+    <label asp-for="@item.BookID"></label>
+    <input asp-for="@item.BookID" />
+
+    <label asp-for="@item.NameBook"></label>
+    <input asp-for="@item.NameBook" />
+  </form>
+
+  <button asp-route-id="@item.BookID" asp-action="Detail" asp-controller="ViewBook">Details</button>
+}
+
+<button asp-action="Create" asp-controller="ViewBook">Go to create page</button>
+
+

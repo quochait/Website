@@ -1,0 +1,17 @@
+﻿
+@{
+  ViewData["Title"] = "Session";
+}
+
+@using Microsoft.AspNetCore.Http
+@using testSession.Extensions
+
+@inject IHttpContextAccessor HttpContextAccessor
+
+
+@{
+  var count = HttpContextAccessor.HttpContext.Session.Get<List<int>>("test").Count;
+}
+<p>
+  @count
+</p>

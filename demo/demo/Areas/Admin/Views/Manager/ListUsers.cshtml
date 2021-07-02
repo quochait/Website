@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewData["Title"] = "ListUsers";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@using demo.Areas.Admin.Models.DataTables
+@using demo.Areas.Admin.Models
+
+
+@model demo.Areas.Admin.Models.Customer.CustomerSearchModel;
+
+
+<table id="customers-grid" class="table table-striped table-bordered" cellspacing="0" width="100%"></table>
+
+
+<link href="~/plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" />
+<script src="~/plugins/jquery/jquery.js"></script>
+<script src="~/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="~/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="~/plugins/datatables/dataTables.bootstrap4.min.js"></script>
+
+<script>
+    console.log("log");
+    $(document).ready(function () {
+        console.log(jQuery().jquery);
+        $.noConflict();
+
+        $.ajax({
+            url: "/Admin/Customer/CustomerList",
+            method: "GET",
+            success: function (data) {
+                console.log(data);
+            }
+        });
+
+        $("#customers-grid").DataTable({
+            pageLength: 10,
+            ajax: {
+                url: "/Admin/Customer/CustomerList",
+                dataSrc: ""
+            },
+            columns: [
+                {
+                    title: "Username",
+                    data: "userName"
+                },
+                {
+                    title: "Email",
+                    data: "email"
+                },
+                {
+                    title: "Active",
+                    data: "lockoutEnabled",
+                    render: function (data) {
+                        if (data === true) {
+                            return '<input type="checkbox" checked>';
+                        }
+                        else {
+                            return '<input type="checkbox">';
+                        }
+                    },
+                    className: "text-center"
+                },
+                {
+                    title: "Edit",
+                    data: "id",
+                    render: function (data) {
+                        return '<a class="btn btn-default" href="Edit/' + data + '"> <i class="fas fa-edit"></i> Edit</a>';
+                    },
+                    className: "text-center",
+                    orderable: false
+                }
+            ]
+        });
+    })
+</script>

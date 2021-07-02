@@ -1,0 +1,68 @@
+﻿
+@model IEnumerable<Martial.Models.Albums>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row mb-3">
+    <div class="col-6">
+        <h2 class="text-info">Albums List</h2>
+    </div>
+    <div class="text-right col-6">
+        <a asp-action="Create" asp-area="Admin" asp-controller="Album" class="btn btn-info text-light">&nbsp;<i class="fas fa-plus"></i> New Album&nbsp;</a>
+    </div>
+</div>
+
+
+@if (Model.Count() > 0)
+{
+    <table class="table table-striped border">
+        <tr class="table-info text-center">
+            <th>@Html.DisplayNameFor(m => m.Name)</th>
+            <th>@Html.DisplayNameFor(m => m.Descriptions)</th>
+            <th>@Html.DisplayNameFor(m => m.CreatedDate)</th>
+            <th>Images</th>
+            <th></th>
+        </tr>
+
+
+        @foreach (var album in Model)
+        {
+            <tr>
+
+                <td class="align-middle text-center"><strong class="text-uppercase">@album.Name</strong></td>
+                <td class="align-middle" style="max-width: 650px;">
+                    @if (album.Descriptions != null && album.Descriptions.Length > 100)
+                    {
+                        <span>@album.Descriptions.Substring(0, 100)...</span>
+                    }
+                    else
+                    {
+                        @album.Descriptions
+                    }
+                </td>
+                @*<td class="text-truncate col-4" >@album.Descriptions</td>*@
+                <td class="align-middle">@album.CreatedDate.ToString("dddd, dd MMMM yyyy")</td>
+                <td class="align-middle text-center">
+                    @if (album.Pictures.Count() > 0)
+                    {
+                        <span><strong>@album.Pictures.Count()</strong> images</span>
+                    }
+                    else
+                    {
+                        <i>Don't have images</i>
+                    }
+                </td>
+                <td class="align-middle">
+                    <partial name="_TableButtonPartial" model="@album.Id" />
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <div><h3 class="text-warning"><i>Don't have albums.</i></h3></div>
+}

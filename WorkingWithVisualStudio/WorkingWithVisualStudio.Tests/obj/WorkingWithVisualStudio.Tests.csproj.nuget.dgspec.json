@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\asp.net\\WorkingWithVisualStudio\\WorkingWithVisualStudio.Tests\\WorkingWithVisualStudio.Tests.csproj": {}
+  },
+  "projects": {
+    "F:\\asp.net\\WorkingWithVisualStudio\\WorkingWithVisualStudio.Tests\\WorkingWithVisualStudio.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\asp.net\\WorkingWithVisualStudio\\WorkingWithVisualStudio.Tests\\WorkingWithVisualStudio.Tests.csproj",
+        "projectName": "WorkingWithVisualStudio.Tests",
+        "projectPath": "F:\\asp.net\\WorkingWithVisualStudio\\WorkingWithVisualStudio.Tests\\WorkingWithVisualStudio.Tests.csproj",
+        "packagesPath": "C:\\Users\\quoch\\.nuget\\packages\\",
+        "outputPath": "F:\\asp.net\\WorkingWithVisualStudio\\WorkingWithVisualStudio.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\quoch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "F:\\asp.net\\WorkingWithVisualStudio\\WorkingWithVisualStudio\\WorkingWithVisualStudio.csproj": {
+                "projectPath": "F:\\asp.net\\WorkingWithVisualStudio\\WorkingWithVisualStudio\\WorkingWithVisualStudio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\asp.net\\WorkingWithVisualStudio\\WorkingWithVisualStudio\\WorkingWithVisualStudio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\asp.net\\WorkingWithVisualStudio\\WorkingWithVisualStudio\\WorkingWithVisualStudio.csproj",
+        "projectName": "WorkingWithVisualStudio",
+        "projectPath": "F:\\asp.net\\WorkingWithVisualStudio\\WorkingWithVisualStudio\\WorkingWithVisualStudio.csproj",
+        "packagesPath": "C:\\Users\\quoch\\.nuget\\packages\\",
+        "outputPath": "F:\\asp.net\\WorkingWithVisualStudio\\WorkingWithVisualStudio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\quoch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Bower": {
+              "target": "Package",
+              "version": "[1.3.11, )"
+            },
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.9, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

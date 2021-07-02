@@ -1,0 +1,46 @@
+﻿
+@model List<Martial.Models.ApplicationUser>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<table class="table table-striped rounded border">
+    <tr class="bg-primary">
+        <th>User Name</th>
+        <th>Email</th>
+        <th>Admin</th>
+        <th></th>
+    </tr>
+    @if (Model.Count > 0)
+    {
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Name</td>
+                <td>@user.Email</td>
+                <td>
+                    <input type="checkbox" asp-for="@user.LockoutEnabled" value="Active" disabled />
+                </td>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a class="btn btn-sm btn-primary text-light" asp-action="Edit" asp-route-id="@user.Id"><i class="fas fa-pen"></i></a>
+
+                        <a class="btn btn-sm btn-danger text-light" asp-action="Delete" asp-route-id="@user.Id"><i class="fas fa-trash"></i></a>
+
+                    </div>
+                </td>
+            </tr>
+
+        }
+    }
+    else
+    {
+        <div class="text-warning">
+            Don't have user.
+        </div>
+    }
+
+</table>

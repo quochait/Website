@@ -1,0 +1,11 @@
+F:\asp.net\SportsStore\test-skip-take\bin\Debug\netcoreapp2.1\test-skip-take.deps.json
+F:\asp.net\SportsStore\test-skip-take\bin\Debug\netcoreapp2.1\test-skip-take.runtimeconfig.json
+F:\asp.net\SportsStore\test-skip-take\bin\Debug\netcoreapp2.1\test-skip-take.runtimeconfig.dev.json
+F:\asp.net\SportsStore\test-skip-take\bin\Debug\netcoreapp2.1\test-skip-take.dll
+F:\asp.net\SportsStore\test-skip-take\bin\Debug\netcoreapp2.1\test-skip-take.pdb
+F:\asp.net\SportsStore\test-skip-take\obj\Debug\netcoreapp2.1\test-skip-take.csprojAssemblyReference.cache
+F:\asp.net\SportsStore\test-skip-take\obj\Debug\netcoreapp2.1\test-skip-take.csproj.CoreCompileInputs.cache
+F:\asp.net\SportsStore\test-skip-take\obj\Debug\netcoreapp2.1\test-skip-take.AssemblyInfoInputs.cache
+F:\asp.net\SportsStore\test-skip-take\obj\Debug\netcoreapp2.1\test-skip-take.AssemblyInfo.cs
+F:\asp.net\SportsStore\test-skip-take\obj\Debug\netcoreapp2.1\test-skip-take.dll
+F:\asp.net\SportsStore\test-skip-take\obj\Debug\netcoreapp2.1\test-skip-take.pdb

@@ -1,0 +1,14 @@
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio\bin\Debug\netcoreapp2.0\WorkingWithVisualStudio.deps.json
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio\bin\Debug\netcoreapp2.0\WorkingWithVisualStudio.runtimeconfig.json
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio\bin\Debug\netcoreapp2.0\WorkingWithVisualStudio.runtimeconfig.dev.json
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio\bin\Debug\netcoreapp2.0\WorkingWithVisualStudio.dll
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.0\WorkingWithVisualStudio.csprojAssemblyReference.cache
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.0\WorkingWithVisualStudio.csproj.CoreCompileInputs.cache
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.0\WorkingWithVisualStudio.AssemblyInfoInputs.cache
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.0\WorkingWithVisualStudio.AssemblyInfo.cs
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio\bin\Debug\netcoreapp2.0\WorkingWithVisualStudio.pdb
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.0\WorkingWithVisualStudio.dll
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio\obj\Debug\netcoreapp2.0\WorkingWithVisualStudio.pdb
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+F:\asp.net\WorkingWithVisualStudio\WorkingWithVisualStudio\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll

@@ -1,0 +1,23 @@
+﻿
+@model test.Models.Book
+
+@{
+  ViewData["Title"] = "Create";
+}
+
+<div asp-validation-summary="All">
+
+</div>
+
+<form method="post">
+  <label asp-for="BookID"></label>
+  <input asp-for="BookID" />
+
+  <label asp-for="NameBook"></label>
+  <input asp-for="NameBook" />
+
+  <button type="submit">Go</button>
+</form>
+
+
+
